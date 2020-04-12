@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby "2.7.1"
 
 gem 'capybara', '3.5'
-gem 'selenium-webdriver', '~> 3.142.7'
+gem 'selenium-webdriver', '3.141.0'
 gem 'capybara-screenshot', '~> 1.0.24'
 gem 'rspec', '~> 3.9.0'
 gem 'fuubar'
