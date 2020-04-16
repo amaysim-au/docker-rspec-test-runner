@@ -1,4 +1,4 @@
-FROM ruby:2.0.0-slim
+FROM ruby:2.4.0-slim
 
 RUN mkdir -p /my-amaysim/log
 RUN gem install bundler -v '1.6.1'
@@ -28,6 +28,6 @@ RUN apt-get update -q \
     && rm -rf /var/lib/apt/lists/* \
     && gem install bundler -v '1.6.1' \
     && pwd \
-    && ls -al
-    # && bundle _1.6.1_ install \
-    # && rm -f Gemfile Gemfile.lock
+    && ls -al \
+    && bundle _1.6.1_ install \
+    && rm -f Gemfile Gemfile.lock
