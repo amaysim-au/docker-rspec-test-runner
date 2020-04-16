@@ -3,7 +3,7 @@ FROM ruby:2.0.0-slim
 ENV SYSTEM_TEST_DIR=/my-amaysim
 
 RUN mkdir -p /my-amaysim/log
-RUN gem install bundler -v '2.1.4'
+RUN gem install bundler -v '1.6.1'
 
 WORKDIR /my-amaysim
 
