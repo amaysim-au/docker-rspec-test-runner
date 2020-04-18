@@ -52,8 +52,6 @@ GEM
     rspec-mocks (3.9.1)
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.9.0)
-    rspec-rerun (1.1.0)
-      rspec (~> 3.0)
     rspec-support (3.9.2)
     ruby-progressbar (1.10.1)
     rubyzip (1.3.0)
@@ -76,7 +74,6 @@ DEPENDENCIES
   gibberish (= 2.1.1)
   pry-byebug (= 3.9.0)
   rspec (~> 3.9.0)
-  rspec-rerun (= 1.1.0)
   selenium-webdriver (= 3.141.0)
   site_prism (= 2.17)
 
