@@ -1,4 +1,4 @@
-FROM ruby:2.4.0-slim
+FROM ruby:2.4.4-slim
 
 RUN mkdir -p /my-amaysim/log
 RUN gem install bundler -v '1.6.1'
