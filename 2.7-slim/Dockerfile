@@ -18,6 +18,8 @@ RUN apt-get update -q \
         ca-certificates \
         dnsutils \
         git \
+        awscli \
+        unzip \
         gnupg2 \
         libxml2-dev \
         libxslt1-dev \
